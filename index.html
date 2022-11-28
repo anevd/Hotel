@@ -13,6 +13,12 @@
 		<div class="container">
 			<header class="header">
 				<nav class="header__nav">
+					<div class="hamburger">
+						<input type="checkbox" />
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 					<ul class="menu">
 						<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
 						<li class="menu__item"><a href="#" class="menu__link">Апартаменты</a></li>
@@ -35,13 +41,18 @@
 						<div class="about__descr">
 							Апарт-отель «SkyPlazaYalta» расположен на закрытой территории в шаговой доступности от моря и центра Ялты. В нашем отеле есть всё для вашего комфортабельного отдыха.
 							<br /><br />К вашим услугам: уникальные по своему дизайну и комфорту, просторные номера с видом на море и город. Детские площадки, охраняемая территория и подземный
-							паркинг. <br /><br />Самые разнообразные услуги от фотосессии до круиза по морю на комфортабельной яхте, разнообразят и украсят ваш отпуск.
+							паркинг. <br /><br /><span class="about__span">Самые разнообразные услуги от фотосессии до круиза по морю на комфортабельной яхте, разнообразят и украсят ваш отпуск.</span>
 						</div>
 					</div>
-					<img src="assets/img/about_sqr.png" alt="about" class="about__img about__img_sqr" /><img src="assets/img/about_big.png" alt="about" class="about__img about__img_big" /><img
-						src="assets/img/about_small.png"
-						alt="about"
-						class="about__img about__img_small" />
+					<div class="about__img_sqr">
+						<img src="assets/img/about_sqr.png" alt="about" class="about__img" />
+					</div>
+					<div class="about__img_big">
+						<img src="assets/img/about_big.png" alt="about" class="about__img" />
+					</div>
+					<div class="about__img_small">
+						<img src="assets/img/about_small.png" alt="about" class="about__img" />
+					</div>
 				</section>
 				<section class="room">
 					<h2 class="title">Номерной фонд</h2>
@@ -49,40 +60,48 @@
 						<a href="#" class="room__link">
 							<div class="room__item">
 								<img src="assets/img/room.png" alt="room" class="room__img" />
-								<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
-								<div class="room__value">
-									<div class="room__price">от 3200₽</div>
-									<div class="room__day">сутки</div>
+								<div>
+									<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
+									<div class="room__value">
+										<div class="room__price">от 3200₽</div>
+										<div class="room__day">сутки</div>
+									</div>
 								</div>
 							</div>
 						</a>
 						<a href="#" class="room__link">
 							<div class="room__item">
 								<img src="assets/img/room.png" alt="room" class="room__img" />
-								<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
-								<div class="room__value">
-									<div class="room__price">от 3200₽</div>
-									<div class="room__day">сутки</div>
+								<div>
+									<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
+									<div class="room__value">
+										<div class="room__price">от 3200₽</div>
+										<div class="room__day">сутки</div>
+									</div>
 								</div>
 							</div>
 						</a>
 						<a href="#" class="room__link">
 							<div class="room__item">
 								<img src="assets/img/room.png" alt="room" class="room__img" />
-								<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
-								<div class="room__value">
-									<div class="room__price">от 3200₽</div>
-									<div class="room__day">сутки</div>
+								<div>
+									<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
+									<div class="room__value">
+										<div class="room__price">от 3200₽</div>
+										<div class="room__day">сутки</div>
+									</div>
 								</div>
 							</div>
 						</a>
 						<a href="#" class="room__link">
 							<div class="room__item">
 								<img src="assets/img/room.png" alt="room" class="room__img" />
-								<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
-								<div class="room__value">
-									<div class="room__price">от 3200₽</div>
-									<div class="room__day">сутки</div>
+								<div>
+									<div class="room__descr">2-комнатные апартаменты с видом на море и во двор, 3 этаж</div>
+									<div class="room__value">
+										<div class="room__price">от 3200₽</div>
+										<div class="room__day">сутки</div>
+									</div>
 								</div>
 							</div>
 						</a>
@@ -91,10 +110,18 @@
 				<section class="responsibility">
 					<h2 class="title">Ваш отдых - наша ответственность</h2>
 					<div class="responsibility__content">
-						<a href="#" class="responsibility__item1"><img src="assets/img/responsibility_man.png" alt="responsibility" class="responsibility__img" /></a
-						><a href="#" class="responsibility__item2"><img src="assets/img/responsibility_car.png" alt="responsibility" class="responsibility__img" /></a
-						><a href="#" class="responsibility__item3"><img src="assets/img/responsibility_wifi.png" alt="responsibility" class="responsibility__img" /></a
-						><a href="#" class="responsibility__item4"><img src="assets/img/responsibility_food.png" alt="responsibility" class="responsibility__img" /></a>
+						<div class="responsibility__item1">
+							<a href="#"><img src="assets/img/responsibility_man.png" alt="responsibility" class="responsibility__img" /></a>
+						</div>
+						<div class="responsibility__item2">
+							<a href="#"><img src="assets/img/responsibility_car.png" alt="responsibility" class="responsibility__img" /></a>
+						</div>
+						<div class="responsibility__item3">
+							<a href="#"><img src="assets/img/responsibility_wifi.png" alt="responsibility" class="responsibility__img" /></a>
+						</div>
+						<div class="responsibility__item4">
+							<a href="#"><img src="assets/img/responsibility_food.png" alt="responsibility" class="responsibility__img" /></a>
+						</div>
 					</div>
 				</section>
 				<section class="atmosphere">
@@ -113,7 +140,7 @@
 						<br /><br />В усадьбе хорошо и спокойно проводить время с семьей, друзьями и коллегами. Первозданная природа, отличный сервис, повышенный комфорт, гостеприимная атмосфера — всё
 						это делает отдых в этом месте по-настоящему качественным.
 					</div>
-					<img src="assets/img/relax.png" alt="relax" class="relax__img" />
+					<div class="relax__img"><img src="assets/img/relax.png" alt="relax" class="relax__photo" /></div>
 				</section>
 				<section class="review">
 					<h2 class="title">Клиенты о нас</h2>
@@ -128,7 +155,7 @@
 							</div>
 							<div class="review__open">Открыть полностью</div>
 							<div class="review__client">
-								<img src="assets/img/rewiew_client.png" alt="client" class="review__img" />
+								<div class="review__photo"><img src="assets/img/rewiew_client.png" alt="client" class="review__img" /></div>
 								<div class="review__name">Никита Толмачев</div>
 								<div class="review__date">28 сентября 2021</div>
 							</div>
@@ -143,7 +170,7 @@
 							</div>
 							<div class="review__open">Открыть полностью</div>
 							<div class="review__client">
-								<img src="assets/img/rewiew_client.png" alt="client" class="review__img" />
+								<div class="review__photo"><img src="assets/img/rewiew_client.png" alt="client" class="review__img" /></div>
 								<div class="review__name">Никита Толмачев</div>
 								<div class="review__date">28 сентября 2021</div>
 							</div>
@@ -158,7 +185,7 @@
 							</div>
 							<div class="review__open">Открыть полностью</div>
 							<div class="review__client">
-								<img src="assets/img/rewiew_client.png" alt="client" class="review__img" />
+								<div class="review__photo"><img src="assets/img/rewiew_client.png" alt="client" class="review__img" /></div>
 								<div class="review__name">Никита Толмачев</div>
 								<div class="review__date">28 сентября 2021</div>
 							</div>
